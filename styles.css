@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+html {
+    min-height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    font-family: Verdana;
+    min-height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #000000;
+    overflow: auto;
+  }
+
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #353131;
+  }
+  
+
+  .active {
+    background-color: #2c2c2c;
+  }
+  
+
+.standarty {
+    background-color: white;
+}
+
+.standarty:hover {
+    color: white;
+    background-color: black;
+}
+
+.wygodnieblisko {
+    text-decoration: underline;
+
+}
+
+.uslugi {
+    background-color: white;
+}
+
+.uslugi:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.logo{
+    transform: scale(0.9);
+    transition: .5s;
+}
+
+.logo:hover {
+    transform: scale(1.0)
+}
+
+#obraz1 {
+    float: left;
+    border-radius: 20px;
+    transform: scale(0.9);
+    transition: .5s;
+}
+
+#obraz1:hover {
+    transform: scale(1.0)
+}
+
+#obraz2 {
+    float: left;
+    border-radius: 20px;
+    transform: scale(0.9);
+    transition: .5s;
+}
+
+#obraz2:hover {
+    transform: scale(1.0)
+}
+
+#obraz3 {
+    float: left;
+    border-radius: 20px;
+    transform: scale(0.9);
+    transition: .5s;
+}
+
+#obraz3:hover {
+    transform: scale(1.0)
+}
+
+#obraz4 {
+    float: left;
+    border-radius: 20px;
+    transform: scale(0.9);
+    transition: .5s;
+}
+
+#obraz4:hover {
+    transform: scale(1.0)
+}
+
+.navbar-cennik {
+    width: 100%;
+    background-color: #000000;
+    overflow: auto;
+  }
+
+  .navbar-cennik a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar-cennik a:hover {
+    background-color: #353131;
+  }
+  
+
+  .active {
+    background-color: #2c2c2c;
+  }
+
+ td, th {
+		border: 3px solid black;
+        font-family: monospace;
+        font-size: 24px;
+	}
+
+.kontakt {
+text-align: center;
+}
+
+.jestem {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white
+}
+
+
+.button {
+    border-radius: 20px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+    background-color: rgb(0, 0, 0);
+  }
+
+
+#messageid {
+    min-width: 100vh;
+    min-height: 30vh;
+    border: 0,5px;
+    border-radius: 10px;
+}
+
+#toja {
+    float: left;
+    border-radius: 20px;
+    margin-top: 10px;
+    transform: scale(0.9);
+    transition: .5s;
+}
+
+#toja:hover {
+    transform: scale(1.0);
+}
+
+.sociale {
+    margin-top: 80px;   
+
+}
+
+#instagram {
+font-family: Verdana;
+}
+
+.info2 {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: left;
+  }
+  
+  .mojeimie {
+    margin: 0;
+    margin-top: 20px;
+    width: 33ch;
+    animation: typing 4s steps(36), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+ .kim-jestem {
+    margin: 0px;
+    width: 40ch;
+    animation: typing 4s steps(28), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+
+.omnie-container {
+  background-color:  rgb(255, 255, 255);
+  min-height: 100%;
+}
+
+
+.omnie-text-card1 {
+  margin-top: 500px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-family: monospace;
+}
+
+.omnie-text-card2 {
+  margin-top: 700px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-family: monospace;
+}
+
+.omnie-text-card3 {
+  margin-top: 900px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-family: monospace;
+}
+
+#siatkowka-obraz {
+  margin-left: 33.33%;
+  transform: scale(0.9);
+  transition: .5s;
+  border-radius: 20px;
+}
+
+#siatkowka-obraz:hover {
+  transform: scale(1.0)
+}
+
+#siatkowka-obraz2 {
+  margin-right: 300px;
+  transform: scale(0.9);
+  transition: .5s;
+  border-radius: 20px;
+}
+
+#siatkowka-obraz2:hover {
+  transform: scale(1.0)
+}
+
+#siatkowka-obraz3 {
+  margin-left: 33.33%;
+  transform: scale(0.9);
+  transition: .5s;
+  border-radius: 20px;
+}
+
+#siatkowka-obraz3:hover {
+  transform: scale(1.0)
+}
+
+#siatkowka-obraz4 {
+  margin-left: 33.33%;
+  transform: scale(0.9);
+  transition: .5s;
+  border-radius: 20px;
+}
+
+#siatkowka-obraz4:hover {
+  transform: scale(1.0)
+}
+
+#programowanie-obraz {
+  margin-left: 33.33%;
+  transform: scale(0.9);
+  transition: .5s;
+  border-radius: 20px;
+}
+
+#programowanie-obraz:hover {
+  transform: scale(1.0)
+}
+
+#programowanie-obraz2 {
+  margin-right: 300px;
+  transform: scale(0.9);
+  transition: .5s;
+  border-radius: 20px;
+}
+
+#programowanie-obraz2:hover {
+  transform: scale(1.0)
+}
+
+#programowanie-obraz3 {
+  margin-left: 33.33%;
+  transform: scale(0.9);
+  transition: .5s;
+  border-radius: 20px;
+}
+
+#programowanie-obraz3:hover {
+  transform: scale(1.0)
+}
+
+#programowanie-obraz4 {
+  margin-left: 33.33%;
+  transform: scale(0.9);
+  transition: .5s;
+  border-radius: 20px;
+}
+
+#programowanie-obraz4:hover {
+  transform: scale(1.0)
+}
+
+#muzyka {
+  float: left;
+}
